@@ -1,0 +1,378 @@
+body {
+    background-image: url("background/fonddecran.jpg");
+}
+
+h2 {
+    font-size: 20px;
+}
+
+
+
+/*HEADER*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    background-image: url("background/planche.jpg");
+    margin-bottom: 3%;
+}
+
+.boutonAccueil,
+.bouton {
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.boutonAccueil:hover,
+.bouton:hover {
+    color: lightgray;
+}
+
+
+/*PAGE ACCUEIL*/
+
+.titre {
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 5%;
+}
+
+.descriptionJeux {
+    margin-left: 14%;
+    margin-right: 14%;
+    width: 70%;
+    text-align: justify;
+    font-size: 1.50em;
+    line-height: 40px;
+}
+
+.titre2 {
+    margin-top: 15%;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 100px;
+    text-decoration: underline;
+}
+
+.card-body {
+    background-image: url("background/planche.jpg");
+    color: white;
+}
+
+.col-4 {
+    margin-bottom: 20px;
+}
+
+#boutonArticle {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#boutonArticle:hover {
+    color: rgb(61, 60, 60);
+}
+
+
+
+
+/*PAGE article*/
+
+.titreArticle {
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 5%;
+}
+
+
+.imageArticle {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.auteur {
+    margin-top: 3%;
+    margin-left: 4%;
+    font-size: 20px
+}
+
+#submitArticleUser {
+    border: none;
+    text-decoration: underline;
+
+}
+
+#submitArticleUser:hover {
+    color: rgb(144, 143, 143);
+}
+
+.contenuarticle {
+    margin: 2% 10% 5% 10%;
+    font-size: 2em;
+    text-align: justify;
+}
+
+.titreSecondaireArticle {
+    margin-left: 1%;
+    margin-bottom: 1%;
+    text-decoration: underline;
+}
+
+
+
+.nouveauCommentaire {
+    margin-left: 2%;
+    margin-bottom: 4%;
+}
+
+
+#contenuCommentaire {
+    width: 20%;
+    height: auto;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+#ajouterCommentaire {
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.preventCommentaire {
+    font-size: 25px;
+    margin: 1% 0% 3% 2%;
+
+}
+
+
+.nomAuteurCommentaire {
+    font-size: 30px;
+    text-decoration-line: underline;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+.commentaireUser {
+    font-size: 20px;
+    padding: 2px;
+    border: 1px solid black;
+    background-color: white;
+    display: inline;
+}
+
+.commentaire {
+    margin-left: 3%;
+    font-size: 20px;
+    padding: 2px;
+    max-width: fit-content;
+    max-height: fit-content;
+    min-height: 2%;
+    min-width: 20%;
+    border: 1px solid black;
+    background-color: white;
+    display: inline;
+}
+
+.boutonModifierCommentaire {
+    margin-left: 2%;
+    margin-right: 1%;
+    margin-top: -10px;
+
+}
+
+.boutonSupprimerCommentaire {
+    margin-left: 1%;
+    margin-top: -10px;
+}
+
+.boutonModifierCommentaire:hover,
+.boutonSupprimerCommentaire:hover {
+    color: rgb(61, 60, 60);
+
+}
+
+
+#commentairesAjax {
+    margin-bottom: -200px;
+}
+
+.commentaireEnAttente {
+    font-size: 20px;
+    padding: 2px;
+    max-width: fit-content;
+    max-height: fit-content;
+    min-height: 2%;
+    min-width: 20%;
+    border: 1px solid black;
+    background-color: white;
+    display: inline;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.aucunCommentaire {
+    font-size: 1.5em;
+    margin-left: 3%;
+
+}
+
+.formEditerCommentaire {
+    display: inline;
+
+}
+
+.inputEditCommentaire {
+    min-width: 20%;
+    font-size: 20px;
+    padding: 2px;
+    border: 1px solid black;
+    background-color: white;
+    display: inline;
+}
+
+
+/*Delete/modifier Article*/
+
+#deleteArticle,
+#modifierArticle {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#modifierArticle:hover {
+    color: rgb(61, 60, 60);
+}
+
+.submitModifierArticle {
+    margin-top: 3%;
+}
+
+.btnEditerSup {
+    margin-top: -2%;
+}
+
+
+
+
+/*PAGE AJOUTER article*/
+
+#titreAjouterArticle {
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+.supprimerArticle {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+
+label {
+    vertical-align: top;
+    font-size: 1.6em;
+    margin-top: 2%;
+}
+
+#contenu {
+    width: 100%;
+    height: fit-content;
+}
+
+#boutonAjouterArticle {
+    max-width: fit-content;
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: -200px;
+}
+
+.connectionRequise {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 5%;
+
+}
+
+.legend {
+    text-align: center;
+}
+
+/* PAGE USER */
+
+.lienAjoutArticlePageUser {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10%;
+}
+
+.commentairePageUser {
+    margin-bottom: 2%;
+    padding-top: 1%;
+}
+
+.inputEditCommentairePageUser {
+    min-width: 50%;
+    font-size: 20px;
+    padding: 2px;
+    border: 1px solid black;
+    background-color: white;
+    display: inline;
+}
+
+.messageAucunCommentairePageUser {
+    text-align: center;
+    font-size: 2em;
+}
+
+.supprimerCompte {
+    text-align: center;
+    margin-bottom: -20%;
+    margin-top: 10%;
+}
+
+
+/* SIGNIN / SIGNUP */
+
+.form_signin,
+.form_signun {
+    text-align: center;
+    width: 20%;
+
+}
+
+.form_signin>#email {
+    margin-bottom: 1%;
+}
+
+#email,
+#password,
+#pseudo {
+    width: 30%;
+    display: block;
+    margin: auto;
+    text-align: center;
+
+}
+
+.btnCreerCompte,
+.btnConnection {
+    margin-top: 2%;
+}
+
+
+
+
+/* FOOTER */
+
+.footer {
+    height: 150px;
+    background-image: url("background/planche.jpg");
+    margin-top: 500px;
+}
